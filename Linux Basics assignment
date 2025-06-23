@@ -1,0 +1,91 @@
+1. Creating and Renaming Files/Directories
+Create a directory named test_dir using mkdir.
+Inside test_dir, create an empty file called example.txt.
+Rename example.txt to renamed_example.txt using mv
+## Answer :
+
+mkdir cmd is use to make new dir 
+touch is the com to create any file 
+mv is the command to move the file or rename the file 
+ls is the command used to find the list to files/ dir in pwd (present woring dir)
+Attached the scrren shot for the reference 
+![alt text](<Screenshot from 2025-06-23 22-54-35.png>)
+
+
+###### End of 1st question ####################
+
+2. Viewing File Contents
+Use cat to display the contents of /etc/passwd.
+Display only the first 5 lines of /etc/passwd using head.
+Display only the last 5 lines of /etc/passwd using tail.
+
+## Answer : 
+etc is the dir where all external pkg are stored 
+cat filename is the cmd use to see the containt of any file 
+head -n where n is the number of lines is use to print only the 1st N lines where tail -n is use to print last n lines of any file 
+![alt text](<Screenshot from 2025-06-23 23-00-17.png>)
+![alt text](<Screenshot from 2025-06-23 23-01-19.png>)
+
+
+###### End of 2nd question ####################
+
+
+
+3.Searching for Patterns
+Use grep to find all lines containing the word "root" in /etc/passwd.
+
+## Answer :
+grep is the command to search the regx in any file containt 
+grep -n 'txt' filenam ewill give the line number where the txt appears 
+![alt text](image-2.png)
+
+###### End of 3rd question ####################
+
+
+4. Zipping and Unzipping
+Compress the test_dir directory into a file named test_dir.zip using zip.
+Unzip test_dir.zip into a new directory named unzipped_dir.
+
+
+## Answer : 
+zip dirname.zip dirname is to zip the dir 
+unzip dirname.zip to unzip the file 
+we can also use tar but tar is specific to linux, but winrar can identify tat file 
+
+![alt text](image-3.png)
+
+###### End of 4th question ####################
+
+5. Downloading Files
+Use wget to download a file from a URL (e.g., https://example.com/sample.txt).
+
+## Answer 
+
+wget https://github.com/bytewisegeek/tutedude-devop is use to download any file 
+
+![alt text](image-4.png)
+
+###### End of 5th question ####################
+
+6. Changing Permissions
+Create a file named secure.txt and change its permissions to read-only for everyone using chmod.
+
+## Answer : 
+chmod 444 file name is to change the permission for all users to read only 
+4 is for read 2 is for write and 1 is for execute assess 
+7 is the code for rwx access/permission 
+![alt text](image-5.png)
+
+###### End of 6th question ####################
+
+7. Working with Environment Variables
+Use export to set a new environment variable called MY_VAR with the value "Hello, Linux!".
+
+## Answer :
+export MY_VAR="Hello, Linux!" to set the env variable 
+echo MY_VAR to print the variable value 
+
+![alt text](image-6.png)
+
+
+Submission Guidelines -: Attach Screenshots or command along with explanation and submit in doc(google doc or microsoft doc) format also attach github repo link
